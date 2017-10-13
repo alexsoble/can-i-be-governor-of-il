@@ -79,6 +79,10 @@
   .result#read-more {
     font-size: 20px;
   }
+
+  .linethru {
+    text-decoration: line-through underline;
+  }
 </style>
 <body>
   <div id="wholething">
@@ -112,7 +116,7 @@
   };
 
   no.onclick = function(){
-    res.innerHTML = 'Ooooh. This is going to be a tough one. If you\'re a non-billionare or even a non-millionaire like <a href="http://www.chicagotribune.com/news/local/politics/ct-daniel-biss-tax-returns-story.html">Daniel Biss</a> or <a href="https://www.pawar2018.com/thank-tried-onward-2/">Ameya Pawar</a>, you are going to face a major uphill battle. <br/><br/> Why don\'t you save yourself some trouble and leave political decision-making in IL to the ultra-rich?';
+    res.innerHTML = 'HA! Bless you. Why don\'t you save yourself some trouble and leave political decision-making in Illinois to the ultra-rich? It\'s not like non-millionares like <a href="https://www.pawar2018.com/thank-tried-onward-2/" class="linethru">Ameya Pawar</a> or <a href="https://www.danielbiss.com/take-action/">Daniel Biss</a> could have any good ideas for our state.';
     readMore.innerHTML = 'CBS News: <a href="https://www.cbsnews.com/news/who-are-the-very-rich-men-running-for-governor-of-illinois/">"Who are the very rich men running for governor of Illinois?"</a> <br/> Center for Responsive Politics: <a href="https://www.opensecrets.org/news/2017/01/battle-of-the-absurdly-wealthy-illinois-governor-race/">"Battle of the absurdly wealthy in Illinois gubernatorial race?"</a> <br/> Ameya Pawar: <a href="https://www.pawar2018.com/thank-tried-onward-2/">"Thank you. I tried. Onward."</a>';
 
     res.scrollIntoView({
